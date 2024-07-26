@@ -21,3 +21,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+  permalink: /Portfolio-Site_Jekyll/
