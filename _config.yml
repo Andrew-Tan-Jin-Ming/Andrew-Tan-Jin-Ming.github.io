@@ -22,4 +22,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-  permalink: /:path/
+permalink: /:path/
