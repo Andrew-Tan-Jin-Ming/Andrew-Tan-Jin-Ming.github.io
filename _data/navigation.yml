@@ -1,8 +1,8 @@
 - name: Home
-  link: Portfolio-Site_Jekyll/
+  link: /Portfolio-Site_Jekyll/
 - name: About
-  link: Portfolio-Site_Jekyll/about.html
+  link: /Portfolio-Site_Jekyll/about.html
 - name: Blog
-  link: Portfolio-Site_Jekyll/blog.html
+  link: /Portfolio-Site_Jekyll/blog.html
 - name: Staff
-  link: Portfolio-Site_Jekyll/staff.html
+  link: /Portfolio-Site_Jekyll/staff.html
