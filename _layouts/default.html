@@ -6,13 +6,20 @@ permalink: /:path/
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title}}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div id="content">
+      <h1 id="siteHeader">Sean Francis Han</h1>
+      {% include navigation.html %}
+      {{ content }}
+      <div id="footer">
+        Footer
+      </div>
+    </div>
   </body>
 </html>

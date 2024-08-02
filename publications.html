@@ -1,0 +1,14 @@
+---
+title: Publications
+---
+<h1>Publications</h1>
+
+<ul>
+  {% for pub in site.publications %}
+    <li>
+        <h2> {{ pub.name }} </h2> 
+        <h3> {{ pub.dateOfPub }} </h3>
+        <p> {{ pub.content | markdownify }} </p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,3 +1,33 @@
-.current {
-    color: green;
-  }
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+ul, ol{
+  list-style: none;
+}
+
+#siteHeader{
+  font-size: 5em;
+}
+
+#content{
+  width: 70vw;
+  margin: 10vh auto 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: greenyellow;
+}
+
+#content > *{
+  margin-bottom: 20px;
+}
+
+#footer{
+  background-color: green;
+  width: 100%;
+}
