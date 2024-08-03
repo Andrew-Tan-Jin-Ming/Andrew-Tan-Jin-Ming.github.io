@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: Contact | Sean Francis Han
 ---
 # Contact page
 
